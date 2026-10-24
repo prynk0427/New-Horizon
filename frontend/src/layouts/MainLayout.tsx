@@ -148,7 +148,7 @@ export default function MainLayout() {
             </div>
           </div>
           <div className="border-t border-slate-800 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-slate-500">
-            <p>© 2024 New Horizon. Built for the AI Hackathon. Weather by Open-Meteo. Maps by OpenStreetMap.</p>
+            <p>© 2026 New Horizon. Built for the AI Hackathon. Weather by Open-Meteo. Maps by OpenStreetMap.</p>
             <p>Explore Beyond the Expected.</p>
           </div>
         </div>
