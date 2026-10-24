@@ -122,7 +122,7 @@ export default function BudgetPage() {
                 <select {...register('currency')} className="input-field w-24">
                   {CURRENCIES.map(c => <option key={c}>{c}</option>)}
                 </select>
-                <input {...register('budget')} type="number" min={1} step={100} className="input-field flex-1" placeholder="2000" />
+                <input {...register('budget')} type="number" min={0} step={100} className="input-field flex-1" placeholder="2000" />
               </div>
               {errors.budget && <p className="text-red-500 text-xs mt-1">{errors.budget.message}</p>}
             </div>

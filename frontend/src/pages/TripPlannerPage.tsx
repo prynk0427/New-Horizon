@@ -310,7 +310,7 @@ export default function TripPlannerPage() {
               </div>
               <div>
                 <label className="label">Budget *</label>
-                <input {...register('budget')} type="number" min={1} step={100} className="input-field" placeholder="2000" />
+                <input {...register('budget')} type="number" min={0} step={100} className="input-field" placeholder="2000" />
                 {errors.budget && <p className="text-red-500 text-xs mt-1">{errors.budget.message}</p>}
               </div>
             </div>
